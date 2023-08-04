@@ -29,6 +29,7 @@ header.header {
                         min-height: calc(100vh - 100px);
                         opacity: 1;
                         pointer-events: initial;
+                        transition: all ease-in 0.3s;
                     }
 
                     ~ .menu-btn {
@@ -92,7 +93,6 @@ header.header {
                 width: 100%;
                 padding: 30px 25px;
                 background: #fff;
-                transition: all ease-in 0.3s;
                 font-size: 20px;
                 li {
                     a {
