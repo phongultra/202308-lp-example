@@ -1,0 +1,13 @@
+// Define the media-breakpoint-up mixin
+@mixin media-breakpoint-up($size) {
+    @media screen and (min-width: $size) {
+        @content;
+    }
+}
+
+// Define the media-breakpoint-down mixin
+@mixin media-breakpoint-down($size) {
+    @media screen and (max-width: $size) {
+        @content;
+    }
+}

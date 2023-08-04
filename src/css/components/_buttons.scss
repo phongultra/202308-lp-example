@@ -1,0 +1,36 @@
+button{
+    cursor: pointer;
+}
+.primary-btn {
+    appearance: none;
+    color: #000;
+    text-transform: uppercase;
+    padding: 13.5px 20px;
+    font-size: 13px;
+    line-height: 1;
+    background-color: #fff;
+    border: none;
+    transition: all ease-in 0.3s;
+    &:hover {
+        color: #fff;
+        background-color: #000;
+    }
+
+    &.bordered {
+        padding: 8px 20px;
+        text-transform: none;
+        border: 1px solid #707070;
+
+        @include media-breakpoint-up("768px") {
+            padding: 10px 20px;
+        }
+    }
+
+    @include media-breakpoint-up("768px") {
+        font-size: 16px;
+    }
+
+    @include media-breakpoint-up("992px") {
+        font-size: 20px;
+    }
+}

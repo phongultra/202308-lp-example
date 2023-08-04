@@ -1,0 +1,51 @@
+.logo {
+    > svg {
+        &.img-logo {
+            width: 153px;
+            height: auto;
+            display: block;
+            @include media-breakpoint-up("1920px"){
+                width: 200px;
+            }
+            @include media-breakpoint-up("1920px"){
+                width: 265px;
+            }
+            &:hover {
+                $delay-rate: 0.1s;
+
+                .word {
+                    animation: fadeIn infinite $delay-rate * 15;
+                    animation-fill-mode: backwards;
+                }
+
+                .word-01 {
+                    animation-delay: $delay-rate * 1;
+                }
+                .word-02 {
+                    animation-delay: $delay-rate * 2;
+                }
+                .word-03 {
+                    animation-delay: $delay-rate * 3;
+                }
+                .word-04 {
+                    animation-delay: $delay-rate * 4;
+                }
+                .word-05 {
+                    animation-delay: $delay-rate * 5;
+                }
+                .word-06 {
+                    animation-delay: $delay-rate * 6;
+                }
+                .word-07 {
+                    animation-delay: $delay-rate * 7;
+                }
+                .word-08 {
+                    animation-delay: $delay-rate * 8;
+                }
+                .word-09 {
+                    animation-delay: $delay-rate * 9;
+                }
+            }
+        }
+    }
+}

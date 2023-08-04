@@ -1,0 +1,51 @@
+body,
+* {
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    // overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+
+    @include media-breakpoint-up("768px") {
+        max-width: 640px;
+    }
+
+    @include media-breakpoint-up("992px") {
+        max-width: 920px;
+    }
+
+    @include media-breakpoint-up("1200px") {
+        max-width: 1140px;
+    }
+
+    @include media-breakpoint-up("1400px") {
+        max-width: 1320px;
+    }
+
+    @include media-breakpoint-up("1920px") {
+        max-width: 1670px;
+    }
+
+    @include media-breakpoint-up("2560px") {
+        max-width: 2240px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: all ease-in 0.3s;
+    &:hover {
+        color: #efbd24;
+    }
+}

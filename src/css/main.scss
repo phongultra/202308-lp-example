@@ -1,0 +1,28 @@
+// Import base styles
+@import 'base/variables';
+@import 'base/typography';
+@import 'base/reset';
+
+// Import utility styles
+@import 'utilities/mixins';
+@import 'utilities/helpers';
+@import 'utilities/animations';
+@import 'utilities/utilities';
+
+//base
+@import 'base/base';
+
+// Import layout styles
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/layout';
+
+// Import component styles
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/carousel';
+@import 'components/components';
+
+// Import page-specific styles
+@import 'pages/home';
