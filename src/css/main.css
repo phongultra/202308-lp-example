@@ -2203,7 +2203,7 @@ section.banner-hero {
   align-items: center;
   justify-content: center;
   background: #000 url(../../src/img/pexels-photo-4110882.jpeg) center no-repeat;
-  background-size: cover;
+  background-size: 100vw auto;
   background-attachment: fixed;
 }
 @media screen and (min-width: 992px) {
